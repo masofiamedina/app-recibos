@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html><head>
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/165e20792f.js" crossorigin="anonymous"></script>
+  <title>Habilitar mes</title>
+  <link rel="icon" type="image/x-icon" href="iconlogo.png">
+
+</head>
+
+  <body>
+    <div class="sidebar">
+      <li><img src="iconlogo.png"></li>
+      <a href="mis-recibos.html"><i class="fa-regular fa-file"></i> Mis recibos</a>
+      <a href="habilitar-mes.html"  class="active"><i class="fa-regular fa-calendar"></i> Habilitar mes</a>
+      <a href="descargas.html"><i class="fa-regular fa-folder"></i> Descargas</a>
+      <a href="empleados.html"><i class="fa-regular fa-user"></i> Empleados</a>
+    </div>
+    
+    <div class="content">
+      <div class="sesion">
+        <div class="info"><b><i class="fa-regular fa-bookmark"></i> Apellido</b> nombre</div>
+        <button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#exampleModal">Cerrar sesion</button>
+      </div>
+      <div class="cuerpo">
+        <h2>Habilitar mes</h2>
+        
+        <form class="form-inline">
+            <div class="container">
+                <div class="row justify-content-md-center">
+                <div class="col-md-5 col-sm-12 mb-sm-2">
+                    <select class="form-control">
+                        <option>2023</option>
+                        <option>2022</option>
+                    </select>
+                </div>
+                <div class="col-md-5 col-sm-12 mb-sm-2">
+                    <select class="form-control">
+                        <option>Abril</option>
+                        <option>Mayo</option>
+                        <option>Junio</option>
+                        <option>Julio</option>
+                        <option>Agosto</option>
+                        <option>Septiembre</option>
+                        <option>Octubre</option>
+                        <option>Noviembre</option>
+                        <option>Diciembre</option>
+                    </select>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Habilitar mes</button>
+                </div>
+                </div>
+            </div>
+        </form>
+<br>
+        <form class="form-inline">
+            <div class="container">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4 col-sm-12 mb-sm-2">
+                        <input type="file" class="form-control-file" id="formFileMultiple" multiple>
+                    </div>
+                    <div class="col-md-2 col-sm-4 mb-sm-2">
+                        <div class="form-group">
+                            <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Cargar</button>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Notificar empleados</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+<br>
+      </div>
+    </div>
+
+</body></html>
